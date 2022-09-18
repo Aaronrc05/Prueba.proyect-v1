@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu vertical responsivo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="sytle.css"/>
+</head>
+<body>
+    <header>
+    <nav> <!--Almacenar menus mobile , web ,etc-->
+        <!--Version mobile-->
+        <div class="mobile">
+            <div class="header">
+                <!--Colocar el logo-->
+                <div class="logo">Logo</div>
+                <div class="more">
+                    <button id="bMore">
+                        <span class="material-symbols-outlined"> menu </span>
+                    </button>
+                </div>
+            </div>
+                
+            <!--Clase de links-->
+            <div id="links" class="links">
+                <a href="#">Inicio</a>
+                <a href="#">Nosotros</a>
+                <a href="#">Productos</a>
+                <a href="#">Ubicacion</a>
+                <a href="#">Contactanos</a> 
+            </div>
+        </div>
+        <!-- Para escritorio-->
+        <div class="desktop">
+            <div class="logo">Logo</div>
+
+            <div class="primary">
+                <a href="#">Inicio</a>
+                <a href="#">Nosotros</a>
+                <a href="#">Ubicacion</a>
+        </div>
+        <div class="secondary full">
+                <a href="#">Contactanos</a>
+                <a href="#">Acerca de </a>
+                
+        </div>
+        <div class="secondary mini">   <!--Contrae el menu -->
+            <a href="#" class="more">More</a>
+            <div class="submenu">
+                <a href="#">Contactanos</a>
+                <a href="#">Acerca de </a>
+                
+            </div>
+
+        </div>
+        </div>
+
+    </nav>
+</header>
+    <header class="textos1">
+        <h1>Lo mas importante no es la camara si no el ojo.</h1>
+    </header>
+    <main>
+        <!--Generar secciones-->
+        <section class="contenedor sobre nosotros">
+            <h2 class="titulo">Conocenos</h2>
+            <div class="contenedor-sobre-nosotros">
+                <img src="../imagen2/imagen2.jpg" alt="" class="imagen-about-us" width="100px" >
+                <div class="contenido-textos">
+                    <h3><span></span>Somos...</h3> <!--subtitulos-->
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel dicta quae sunt culpa adipisci veniam. 
+                        Assumenda placeat quas vel velit accusamus accusantium minus totam odio reiciendis nemo, 
+                        rerum adipisci earum?</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel dicta quae sunt culpa adipisci veniam.
+                        Assumenda placeat quas vel velit accusamus accusantium minus totam odio reiciendis nemo, 
+                        rerum adipisci earum?</p>
+                </div>
+            </div>
+        </section>
+        <section class="portafolio">
+            <div class="contenedor">                         <!--ddd-->
+                <h2 class="titulo">Algunos de Nuestros trabajos</h2>
+                <div class="galeria-port">
+                    <div class="imagen-port">
+                        <img src="../imagen2/imagen 7.jpeg" alt="">
+                        <div class="hover-galeria">
+                            <img src="" alt="">
+                            <p>Nuestro trabajo</p>      
+                        </div>
+                    </div>
+                    <!--Imagenes -->
+                    <div class="imagen-port">
+                        <img src="../imagen2/imagen 4.webp" alt="">
+                        <div class="hover-galeria">
+                            <img src="" alt="">
+                            <p>Nuestro trabajo</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="../imagen2/imagen6.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="icons1/icono1.png" alt="">
+                            <p>Nuestro trabajo</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="../imagen2/imagen8.jpg" alt="">
+                        <div class="hover-galeria">
+                            <img src="icons1/icono1.png" alt="">
+                            <p>Nuestro trabajo</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> 
+
+        <section class="ubicacion">
+            <h2 class="titulo">Ubicanos</h2>
+            <div class="contenedor-sobre-ubicacion">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.6569028060117!2d-77.03793778518722!3d-12.067111191453746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8eb0ef54037%3A0x6dc14dcc4062cff1!2sIdat%20-%20Lima%20Centro!5e0!3m2!1ses-419!2spe!4v1663033173707!5m2!1ses-419!2spe" width="900" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>" frameborder="0"></iframe>
+                <div class="contenido-textos">
+                    <h3><span></span>Encuentranos en </h3> <!--subtitulos-->
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel dicta quae sunt culpa adipisci veniam. 
+                        Assumenda placeat quas vel velit accusamus accusantium minus totam odio reiciendis nemo, 
+                        rerum adipisci earum?</p>
+                   
+                    
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <footer>
+            <div class="contenedor-footer">
+                <div class="content-foo">
+                    <h4>phone</h4>
+                    <p>999-666-333</p>
+                </div>
+                <div class="content-foo">
+                    <h4>Email</h4>
+                    <p>999-666-333</p>
+                </div>
+                <div class="content-foo">
+                    <h4>Location</h4>
+                    <p>999-666-333</p>
+                </div>
+            </div>
+            <h2 class="titulo-final">&copy; Aaron Desing | David Ramos</h2>
+        </footer>
+    </main>
+    <script> /*capa de javas*/
+        const bMore = document.querySelector('#bMore'); 
+        const links = document.querySelector('#links');
+
+        bMore.addEventListener('click', e => {
+            links.classList.toggle('collapsed');
+        }); /*evento para cuando de mos click*/
+    </script>
+</body>
+</html>
